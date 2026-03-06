@@ -1,0 +1,25 @@
+body {
+    background-image: linear-gradient(to bottom, darkblue, black);
+    color:white;
+}
+
+* {
+  cursor: url("elder%20pointer.png") 4 4, auto;
+}
+
+
+.wand-link img {
+    width: 100%;
+}
+
+.wand-link {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    display: block;
+    width: 60px; /* wand size */
+    transition:
+        transform 0.3s,
+        filter 0.3s;
+    cursor: pointer;
+}
